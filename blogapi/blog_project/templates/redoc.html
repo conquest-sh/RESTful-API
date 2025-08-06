@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ReDoc</title>
+    <!-- بارگذاری Redoc از CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/redoc@next/bundles/redoc.standalone.js"></script>
+  </head>
+  <body>
+    <redoc spec-url="{% url 'schema-json' %}"></redoc>
+  </body>
+</html>
